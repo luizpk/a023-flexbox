@@ -5,14 +5,23 @@
 
 .container {
   height: 100vh;
-  width: 100vw;
-  background-color: lightgray;
+  background-color: rgb(202, 199, 199);
   display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+  margin: 0 250px 0 250px;
 }
 
 .item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border: 1px solid black;
   background-color: white;
-  height: 180px;
-  width: 180px;
+  height: 140px;
+  width: 140px;
+
 }
+
